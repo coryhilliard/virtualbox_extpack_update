@@ -10,6 +10,9 @@
 #                Must have already installed wget and VirtualBox
 #                Must run this script in the folder you want to download the VBox packages into 
 #                Must run this script with elevated privileges
+#
+# Usage:         wget https://gitlab.com/coryhilliard/virtualbox_extpack_update/raw/master/vbox_extpack_update.sh &&\
+#                sudo bash ./vbox_extpack_update.sh
 
 # Set the LatestVirtualBoxVersion variable to the latest version
 LatestVirtualBoxVersion=$(wget -qO - http://download.virtualbox.org/virtualbox/LATEST.TXT)
